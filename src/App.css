@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+    body {
+        @apply bg-black/80;
+    }
+    .scrollwidth0{
+        color: red;
+    }
+}
